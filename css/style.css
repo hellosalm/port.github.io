@@ -1,0 +1,714 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.uni-padding {
+    padding: 0% 6%;
+}
+
+/* layout here  */
+
+/* Header  */
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 10px;
+    background-color: green;
+    z-index: 10;
+
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.logo h1 {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo h1:hover {
+    color: red;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-right: 3rem;
+
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(12, 12, 12);
+    font-family: sans-serif;
+    padding: 5px 15px;
+    border-radius: 5px;
+
+
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: green;
+
+
+}
+
+.hire-me a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: white;
+    background-color: green;
+    border: 2px solid rgb(8, 8, 8);
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.hire-me a:hover {
+    background-color: rgb(255, 255, 255);
+    color: green;
+}
+
+
+
+
+/* Banner  */
+#banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    padding-top: 80px;
+    margin-top: 50px;
+    padding-bottom: 120px;
+}
+
+.banner-left h2 {
+    color: white;
+    font-size: 2rem;
+}
+
+.banner-left h1 {
+    color: white;
+    font-size: 3.4rem;
+    /* margin-bottom: 1rem; */
+}
+
+.banner-left h3 {
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.banner-left i {
+    font-size: 2.5rem;
+    color: white;
+    margin-right: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.banner-left i:hover {
+    color: rgb(7, 71, 92);
+}
+
+.download-cv a {
+    text-decoration: none;
+    padding: 10px 15px;
+    color: green;
+    background-color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.download-cv a:hover {
+    background-color: green;
+    color: rgb(255, 255, 255);
+    border: 2px solid white;
+}
+
+.picture img {
+    max-width: 80%;
+    height: auto;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 50%;
+}
+
+
+
+
+/* About section  */
+#about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 8em;
+    padding-bottom: 5rem;
+}
+
+.about-left h1 {
+    color: green;
+    font-size: 3rem;
+
+}
+
+.about-left h2 {
+    font-size: 2rem;
+    color: green;
+    margin-bottom: 1.3rem;
+}
+
+.about-left p {
+    color: green;
+    margin-bottom: 2.5rem;
+
+}
+
+.about-left a {
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: green;
+    color: white;
+    font-size: 1.2rem;
+    border-radius: 5px;
+}
+
+.about-left a:hover {
+    background-color: white;
+    color: green;
+    border: 2px solid green;
+}
+
+.about-right img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid green;
+
+}
+
+
+
+
+/* Skills section  */
+#skills {
+    text-align: center;
+    background-color: green;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+#skills h1 {
+    font-size: 3rem;
+    color: white;
+    margin-bottom: 3rem;
+
+}
+
+.progress progress {
+    width: 50%;
+
+}
+
+span {
+    font-size: 2.3rem;
+    color: white;
+}
+
+
+
+
+/* Js Project section  */
+.project-js {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+
+#js .h1 {
+    color: rgb(8, 111, 8);
+    font-size: 3rem;
+    padding-top: 5rem;
+    text-align: center;
+}
+
+.js-1 {
+    background-color: green;
+    padding: 70px 70px;
+    border-radius: 5px;
+
+}
+
+.js-1 h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.js-1 a {
+    text-decoration: none;
+}
+
+
+/* PSD Project section  */
+#psd {
+    background-color: green;
+}
+
+#psd .h1 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    padding-top: 4rem;
+}
+
+.project-psd {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+
+}
+
+.psd-1 {
+    background-color: white;
+    padding: 70px 70px;
+    border-radius: 5px;
+}
+
+.psd-1 a {
+    text-decoration: none;
+    color: green;
+    font-size: 1.5rem;
+}
+
+
+/* Bosstrap and sass Project section  */
+#sass {
+    /* background-color: green; */
+}
+
+#sass .h1 {
+    text-align: center;
+    color: rgb(5, 97, 5);
+    font-size: 3rem;
+    padding-top: 4rem;
+}
+
+.project-sass {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+
+}
+
+.sass-1 {
+    background-color: green;
+    padding: 70px 70px;
+    border-radius: 5px;
+}
+
+.sass-1 a {
+    text-decoration: none;
+    color: rgb(249, 251, 249);
+    font-size: 1.5rem;
+}
+
+
+
+
+/* contact section  */
+#contact {
+    background-color: green;
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+}
+
+#contact .h {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.contact-1 {
+    background-color: white;
+    padding: 70px 70px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-1 h1 {
+    color: green;
+    font-size: 2.5rem;
+}
+
+.contact-1 p {
+    color: green;
+    font-size: 1.2rem;
+}
+
+.contact-1 i {
+    color: green;
+    font-size: 2.5rem;
+
+}
+
+.contact-1.div2 {
+    padding: 70px 128px;
+
+}
+
+
+
+/* Contcat -2  */
+.contact-section-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.contact-2 {
+    background-color: white;
+    padding: 70px 70px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-2 h1 {
+    color: green;
+    font-size: 2.5rem;
+}
+
+.contact-2 p {
+    color: green;
+    font-size: 1.2rem;
+}
+
+.contact-2 i {
+    color: green;
+    font-size: 2.5rem;
+}
+
+.contact-2.div {
+    padding: 70px 121px;
+}
+
+
+
+/* footer section  */
+#footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.footer-left i {
+    font-size: 2.5rem;
+    color: green;
+    margin-right: 15px;
+}
+
+.footer-right p {
+    color: green;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+/* Burger  */
+.span {
+    cursor: pointer;
+    display: none;
+}
+
+
+
+/* Responsive for 1024px  */
+@media (max-width:1024px) {
+    .navbar ul li {
+        margin-right: 2rem;
+    }
+
+    .js2 {
+        padding: 93px 70px;
+
+    }
+
+    .js-1 {
+
+
+        border: 2px solid gray;
+    }
+
+    .psd-1 {
+
+        border: 2px solid gray;
+    }
+
+    .sass-1 {
+        border: 2px solid gray;
+    }
+
+    .contact-1.div2 {
+        padding: 81px 90px;
+    }
+
+    .contact-1 {
+
+        border: 2px solid gray;
+    }
+
+    .contact-2 {
+        border: 2px solid gray;
+    }
+}
+
+
+
+/* Responsive for 768px  */
+@media only screen and (max-width:768px) {
+    .span {
+        display: block;
+
+    }
+
+    .navbar ul {
+        display: inline-block;
+        display: none;
+    }
+
+    .navbar ul li {
+        margin-right: 0rem;
+        margin-top: 25px;
+    }
+
+    .js-1 {
+
+        padding: 64px 46px;
+
+    }
+
+   
+    
+
+    .js-1.js2 {
+        padding: 87px 40px;
+    }
+
+    .js-1 {
+        border: 2px solid gray;
+
+    }
+
+    .psd-1 {
+
+        border: 2px solid gray;
+    }
+
+    .sass-1 {
+
+        border: 2px solid gray;
+    }
+
+    .contact-1 {
+
+        border: 2px solid gray;
+    }
+
+    .contact-2 {
+
+        padding: 81px 70px;
+
+    }
+
+    .contact-2 {
+
+        border: 2px solid gray;
+    }.contact-1.div2 {
+        padding: 81px 37px;
+    }
+}
+
+
+
+/* Responsive for 460px  */
+@media (max-width:460px) {
+    .project-js {
+
+        flex-direction: column;
+    }
+
+    .js-1.js2 {
+        padding: 64px 69px;
+    }
+
+    .project-psd {
+
+        flex-direction: column;
+    }
+
+    .project-sass {
+
+        flex-direction: column;
+
+    }
+
+    .contact-section {
+
+        flex-direction: column;
+
+    }
+
+    .contact-section-2 {
+
+        flex-direction: column;
+    }
+
+    .contact-1.div2 {
+        padding: 92px 70px;
+    }
+
+    .contact-2 {
+        padding: 81px 81px;
+    }
+
+    .contact-2.div {
+        padding: 70px 132px;
+    }
+
+    #footer {
+
+        flex-direction: column;
+
+    }
+
+    #banner {
+
+        flex-direction: column;
+    }
+
+    .picture img {
+
+        margin-top: 44px;
+    }
+
+    .banner-left {
+        text-align: center;
+    }
+
+    #about {
+
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-right img {
+
+        margin-top: 45px;
+    }
+
+    span {
+        font-size: 1rem;
+
+    }.hire-me a {
+        
+        display: none;
+    }.picture{
+        margin-left: 81px;
+    }
+}
+
+
+
+
+/* Responsive for 360px  */
+@media (max-width:360px) {
+    .contact-1.div2 {
+        padding: 92px 26px;
+    }
+
+    .contact-2.div {
+        padding: 70px 120px;
+    }
+
+    .sa2 {
+        padding: 70px 89px;
+    }
+
+    .sd2 {
+        padding: 70px 83px;
+
+    }
+
+    .hire-me a {
+
+        display: none;
+    }.picture {
+        margin-left: 49px;
+    }
+}
+
+
+
+
+/* Responsive for 300px  */
+@media (max-width:300px) {
+    .js-1.js2 {
+        padding: 87px 58px;
+    }
+
+    .psd-1 {
+        padding: 50px 41px;
+
+    }
+
+    .sass-1 {
+
+        padding: 50px 36px;
+
+    }
+
+    .contact-1.div2 {
+        padding: 92px 9px;
+    }
+
+    .contact-2 {
+        padding: 53px 50px;
+    }
+
+    .contact-2.div {
+        padding: 53px 89px;
+    }
+}
